@@ -9,6 +9,9 @@
         <module name="taotaomanagerdao" />
         <module name="taotaomanagerinterface" />
         <module name="taotaomanagerpojo" />
+        <module name="taotaomanagerservice" />
+        <module name="taotaomanagerweb" />
+        <module name="taotaomangerservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +19,9 @@
       <module name="taotaomanagerdao" target="1.7" />
       <module name="taotaomanagerinterface" target="1.7" />
       <module name="taotaomanagerpojo" target="1.7" />
+      <module name="taotaomanagerservice" target="1.7" />
+      <module name="taotaomanagerweb" target="1.7" />
+      <module name="taotaomangerservice" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/taotaomanagerservice" />
+    <file type="web" url="file://$PROJECT_DIR$/taotaomanagerweb" />
+    <file type="web" url="file://$PROJECT_DIR$/taotaomangerservice" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -7,6 +12,15 @@
         <option value="$PROJECT_DIR$/taotaomanagerpojo/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/taotaomanagerservice/pom.xml" />
+        <option value="$PROJECT_DIR$/taotaomanagerweb/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://mybatis.org/dtd/mybatis-3-config.dtd" location="$PROJECT_DIR$/../工具/mybatis/mybatis3-dtd/mybatis-3-config.dtd" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
